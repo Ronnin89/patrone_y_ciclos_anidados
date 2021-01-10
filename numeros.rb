@@ -106,9 +106,9 @@ print space
     puts
 end
 
-# letra_o(n)
-# letra_i(n)
-# letra_z(n)
-# letra_x(n)
-# numero_cero(n)
+letra_o(n)
+letra_i(n)
+letra_z(n)
+letra_x(n)
+numero_cero(n)
 navidad(n)
