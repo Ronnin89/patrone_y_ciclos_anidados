@@ -20,5 +20,20 @@ def letra_i(x)
     end
 end
 
+def letra_z(x)
+    caracter = "+"
+    space = "\s"
+    space_cont = 0 
+    space_size = x - 2
 
+    puts caracter*x 
+    until (space_size == space_cont) do
+        puts (space * space_size) + caracter
+        space_size -= 1
+    end
+    puts caracter*x
+end
+
+letra_o(n)
 letra_i(n)
+letra_z(n)
