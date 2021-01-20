@@ -81,6 +81,7 @@ def navidad(x)
     space = "\s"
     cont1 = 0
     cont2 = 3
+    x += 1 if x.even?
 
     puts space * ((x / 2)+1) + character
     
